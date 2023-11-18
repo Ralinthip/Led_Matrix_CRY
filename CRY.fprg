@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="shogun"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-31 12:02:42 PM"/>
+        <attribute name="created" value="c2hvZ3VuO0xBUFRPUC1RVTBNMDcyRTsyNTY1LTEwLTMwOzAxOjU0OjEyIFBNOzI5NjE="/>
+        <attribute name="edited" value="c2hvZ3VuO0xBUFRPUC1RVTBNMDcyRTsyNTY1LTEwLTMwOzA1OjQ4OjU4IFBNOzE7MzA4Ng=="/>
+        <attribute name="edited" value="UmFsaW50aGlwIFNha3VuYWluO0xBUFRPUC1LVkYxNDZEVTsyMDIyLTEwLTMxOzEyOjAyOjQyIFBNOzM7NDIyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DIN, CS, CLK, MAXDEVICES, L" type="Integer" array="False" size=""/>
+            <assign variable="L" expression="0"/>
+            <while expression="L&lt;3">
+                <if expression="L==0">
+                    <then>
+                        <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3619;&#3641;&#3611;&#3610;&#3657;&#3634;&#3609; &#3607;&#3637;&#3656;&#3652;&#3615;&#3605;&#3635;&#3649;&#3627;&#3609;&#3656;&#3591;0&quot;" newline="True"/>
+                        <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3586;&#3657;&#3629;&#3588;&#3623;&#3634;&#3617;Welcome&#3648;&#3588;&#3619;&#3639;&#3656;&#3629;&#3609;&#3607;&#3637;&#3656; &#3607;&#3637;&#3656;&#3652;&#3615;&#3605;&#3635;&#3649;&#3627;&#3609;&#3656;&#3591;3&#3606;&#3638;&#3591;1&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3592;&#3640;&#3604;&#3648;&#3621;&#3639;&#3656;&#3629;&#3609;&#3592;&#3634;&#3585;&#3586;&#3623;&#3634;&#3652;&#3611;&#3595;&#3657;&#3634;&#3618;&#3648;&#3619;&#3636;&#3656;&#3617;&#3592;&#3634;&#3585;&#3649;&#3606;&#3623;&#3621;&#3656;&#3634;&#3591;&#3626;&#3640;&#3604;&#3652;&#3621;&#3656;&#3586;&#3638;&#3657;&#3609;&#3610;&#3609; &quot;" newline="True"/>
+                <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3619;&#3641;&#3611;cinnamon&#3648;&#3588;&#3621;&#3639;&#3656;&#3629;&#3609;&#3607;&#3637;&#3656; &#3592;&#3634;&#3585;&#3586;&#3623;&#3634;&#3652;&#3611;&#3595;&#3657;&#3634;&#3618;&quot;" newline="True"/>
+                <declare name="h" type="Integer" array="False" size=""/>
+                <assign variable="h" expression="0"/>
+                <do expression="h &lt; 2">
+                    <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3619;&#3641;&#3611;&#3619;&#3606;&#3606;&#3633;&#3591; &#3607;&#3637;&#3656;&#3652;&#3615;&#3605;&#3635;&#3649;&#3627;&#3609;&#3656;&#3591;0 &quot;" newline="True"/>
+                    <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3585;&#3634;&#3619;&#3648;&#3588;&#3621;&#3639;&#3656;&#3629;&#3609;&#3607;&#3637;&#3656;&#3586;&#3629;&#3591;&#3585;&#3619;&#3632;&#3626;&#3640;&#3609;&#3649;&#3621;&#3657;&#3623;&#3585;&#3621;&#3634;&#3618;&#3648;&#3611;&#3655;&#3609;&#3605;&#3633;&#3623;&#3629;&#3633;&#3585;&#3625;&#3619; CRY&quot;" newline="True"/>
+                    <assign variable="h" expression="h+1"/>
+                </do>
+                <output expression="&quot;&#3649;&#3626;&#3604;&#3591;&#3619;&#3606;&#3606;&#3633;&#3591;&#3648;&#3588;&#3621;&#3639;&#3656;&#3629;&#3609;&#3607;&#3637;&#3656;&#3585;&#3621;&#3633;&#3610;&quot;" newline="True"/>
+                <assign variable="L" expression="L+1"/>
+            </while>
+            <call expression="Ex"/>
+        </body>
+    </function>
+    <function name="Ex" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;exit;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
